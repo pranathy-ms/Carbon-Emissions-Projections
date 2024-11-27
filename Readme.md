@@ -5,8 +5,24 @@ This project predicts greenhouse gas emissions by sector using Long Short-Term M
 
 * Prerequisites
 * Installation
-* Usage
-* Model Description
-* Evaluation Metrics
-* Future Predictions
-* License
+* Running the Notebooks
+
+## Prerequisites
+
+To run this project, ensure you have the following installed:
+
+* Python 3.6 or higher
+* pip for managing Python packages
+* Jupyter Notebook or JupyterLab
+* Required Python libraries (listed below)
+
+## Installation
+
+## Running the Notebooks
+1. Start Jupyter Notebook:
+* After installing the dependencies, start the Jupyter Notebook server:
+"jupyter notebook"
+2. Open the Notebooks:
+* Navigate to the .ipynb files in the Jupyter interface and open the notebooks to run.
+3. Run the Cells:
+Once the notebook is open, you can run the cells sequentially. Make sure to run the initial setup cells first (e.g., importing libraries and loading the dataset), followed by the cells containing the model definition, training, and evaluation code.
