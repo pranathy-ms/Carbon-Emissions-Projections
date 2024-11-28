@@ -19,7 +19,7 @@ To run this project, ensure you have the following installed:
 ## Installation
 1. Clone the repository:
    * git clone https://github.com/pranathy-ms/Carbon-Emissions-Projections.git
-2. Install required dependencies:
+2. Install required dependencies: ```pip install -r requirements.txt```
 3. Download the dataset:
   * Ensure the dataset ghg-emissions-by-sector-stacked.csv is located in the same directory as the Jupyter Notebooks. This dataset contains historical greenhouse gas emissions data by sector.
 
