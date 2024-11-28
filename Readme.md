@@ -3,6 +3,13 @@ This project predicts greenhouse gas emissions by sector using Long Short-Term M
 
 This document provides instructions on how to run the program, along with the required dependencies and setup steps.
 
+## Table of Contents
+* Dataset Overview
+* Project Phases 
+* Prerequisites
+* Installation
+* Running the Notebooks/script
+
 ## Dataset Overview  
 We began with a dataset containing greenhouse gas emissions from various sectors across multiple countries, recorded annually from 1990 to 2020.  
 
@@ -50,13 +57,6 @@ This motivated the development of country-specific models to enhance forecasting
 - **LSTM-RNN 2.ipynb**: Refined LSTM-RNN model with optimized hyperparameters (Phase 3).  
 - **country.py**: Script for country-specific modeling, training separate models for each country.  
 
-## Table of Contents
-* Dataset Overview
-* Project Phases 
-* Prerequisites
-* Installation
-* Running the Notebooks
-
 ## Prerequisites
 
 To run this project, ensure you have the following installed:
@@ -79,11 +79,13 @@ To run this project, ensure you have the following installed:
 ## Installation
 1. Clone the repository:
    * git clone https://github.com/pranathy-ms/Carbon-Emissions-Projections.git
-2. Install required dependencies: ```pip install -r requirements.txt```
+2. Install required dependencies:
+      * ```pip install jupyter```
+      * ```pip install -r requirements.txt```
 3. Download the dataset:
   * Ensure the dataset ghg-emissions-by-sector-stacked.csv is located in the same directory as the Jupyter Notebooks. This dataset contains historical greenhouse gas emissions data by sector.
 
-## Running the Notebooks
+### How to Run the Jupyter Notebooks
 1. Start Jupyter Notebook:
   * After installing the dependencies, start the Jupyter Notebook server:
 "jupyter notebook"
@@ -91,3 +93,8 @@ To run this project, ensure you have the following installed:
   * Navigate to the .ipynb files in the Jupyter interface and open the notebooks to run.
 3. Run the Cells:
 Once the notebook is open, you can run the cells sequentially. Make sure to run the initial setup cells first (e.g., importing libraries and loading the dataset), followed by the cells containing the model definition, training, and evaluation code.
+
+### How to Run the country.py Script
+1. Navigate to the folder containing the script. For example: ```cd /path/to/your/project```
+2. Run the script: ```python country.py```
+
