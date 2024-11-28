@@ -15,6 +15,16 @@ To run this project, ensure you have the following installed:
 * pip for managing Python packages
 * Jupyter Notebook or JupyterLab
 * Required Python libraries (listed below)
+* import pandas as pd
+* import numpy as np
+* import os
+* from tensorflow import keras
+* from keras.models import Sequential
+* from keras.layers import LSTM, Dense
+* from sklearn.preprocessing import MinMaxScaler
+* from sklearn.metrics import mean_squared_error
+* import matplotlib.pyplot as plt
+* from tqdm import tqdm
 
 ## Installation
 1. Clone the repository:
