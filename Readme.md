@@ -132,7 +132,7 @@ To run this project locally:
 - Install the required packages: pip install -r requirements.txt
 
 Have the following files in your project directory:
-- ghg-emissions-by-sector-stacked.csv: Dataset file
-- lstm_model.keras: Our pre-trained LSTM model
+- final_sector_predictions_combined .csv: Dataset file
+- All the .h5 models from the models_output folder: Our pre-trained LSTM models
 
 Run the Streamlit app: streamlit run app.py
